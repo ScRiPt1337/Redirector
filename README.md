@@ -3,6 +3,8 @@ Setup Cobolt strike redirector with one click
 
 [GITHUB](https://github.com/ScRiPt1337/Redirector)
 
+[DEPLOY REDIRECTOR](https://deta.space/discovery/r/lbvhqxhqefb1c6bk)
+
 ### SETUP 
 1. Deploy the redirector on deta.space
 2. Open Redirector settings by click on the three dot
