@@ -1,0 +1,4 @@
+Flask
+gunicorn
+requests
+user_agents

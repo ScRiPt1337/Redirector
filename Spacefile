@@ -1,0 +1,17 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+micros:
+  - name: Redirector
+    src: ./
+    engine: python3.9
+    primary: true
+    public: true
+    run: gunicorn main:app
+    presets:
+      env:
+        - name: c2_host
+          description: c2 host with port (ex:http://195.65.76.133:3000)
+          default: "None"
+        - name: agent
+          description: filter using user-agent (if its set then it will only redirect traffic with the specified user-agent other traffic will be blocked)
+          default: "None"
