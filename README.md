@@ -1,5 +1,5 @@
 # Redirector
-Setup Cobolt strike redirector with one click
+Setup server-less Cobolt strike redirector with one click
 
 [GITHUB](https://github.com/ScRiPt1337/Redirector)
 
